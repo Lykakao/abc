@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Dela+Gothic+One&family=Rampart+One&family=Source+Serif+Pro&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position: center;
+  }
+  body{
+    font-size: 22px;
+    line-height: 32px;
+    ;
+  }
+  nav{
+    background-color: #675244;
+    justify-content: space-around;
+    width: 1349px;
+    height: 50px;
+  }
+  nav ul {  
+    height: 50px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li{
+    display: inline-block;
+    background-color: #675244;
+  }
+  nav a{
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    line-height: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 1s;
+  }
+  nav ul ul {
+    display: none;
+    position: absolute;
+  }
+  nav a:hover{
+    background-color:  #967e66;
+    transition: 1s;
+  }
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  nav ul ul li{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  .title {
+    font-family: 'Dela Gothic One', cursive;
+    margin-left: 300px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+
+.total {
+    background-color: #bdad90;
+    color: black;
+
+}
+.one{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+h2 {
+    font-family: 'Dela Gothic One', cursive;
+}
+.text{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.write {
+width: 45%;
+height: 100%;
+font-family: 'Source Serif Pro', serif;
+}
+.picture1{
+    width: 45%;
+ height: 60%;
+
+}
+.war1{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.two {
+    margin-left: 100px;
+}
+.part1{
+    margin-top: 50px;
+   
+  width: 100%;
+}
+.part11{
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+
+}
+.contentpart1{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+.war2{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part12{
+    margin-top: 50px;
+    height: 100%;
+    display: flex;
+
+}
+.war3{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+
+.contentpart12{
+    width: 45%;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Source Serif Pro', serif;
+}
+.part2{
+    margin-top: 50px;
+    width: 100%;
+}
+.part21{
+    margin-top: 40px;
+    height: 100%;
+    display: flex;
+    font-family: 'Source Serif Pro', serif;
+
+}
+.contentpart2{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war5{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part22{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart21{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war6{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part3{
+    margin-top: 50px;
+    width: 100%;
+}
+.part31{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart3{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war7{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part32{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart31{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war8{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part3{
+    margin-top: 50px;
+    width: 100%;
+}
+.part41{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart4{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war9{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part42{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart41{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war10{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part5{
+    margin-top: 50px;
+    width: 100%;
+}
+.part51{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart5{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war11{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+.part52{
+    font-family: 'Source Serif Pro', serif;
+   margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.contentpart51{
+    width: 45%;
+    margin-left: 50px;
+    font-family: 'Source Serif Pro', serif;
+}
+.war12{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 45%;
+  height: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+}
+h3{
+    margin-left: 50px;
+}
+.end {
+    width: 80%;
+    margin-left: 50px;
+}
+.picturwin {
+    width: 100%;
+   margin-top: 100px;
+}
+.win {
+    width: 20%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 ); 
+    margin-left: 200px;
+}
+.victory{
+    width: 20%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.7 );
+    margin-left: 400px;
+}
+.vu{
+    width: 100%;
+    height: 100%;
+}

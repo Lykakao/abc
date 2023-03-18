@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+
+#menu_search{
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 20px;
+    transition: 1s;
+}
+
+#menu_search:hover{
+    border: 3px solid blue;
+    transition: 1s;
+}
+
+#menu_list{
+    margin-top: 30px;
+}
+
+.menu_item{
+    display: inline-block;
+}
+
+.menu_item a{
+    text-decoration: none;
+    color: black;
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
